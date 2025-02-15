@@ -59,7 +59,7 @@ width: 30%;
    
 }
 .btn{
-   
+    
     color: aliceblue;
     background-color: #1e2167;
     border: 2px solid white;
@@ -67,6 +67,10 @@ width: 30%;
     font-size: 20px;
     cursor: pointer;
     
+}
+.btn a{
+    color: aliceblue;
+    text-decoration: none;
 }
 .rightsection {
     width: 40%; 
