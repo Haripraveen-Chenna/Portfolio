@@ -1,0 +1,237 @@
+body {
+margin: 0;
+padding: 0%;
+font-family: 'Poppins', sans-serif;
+border: border-box;
+background-color: rgb(3, 3, 23)!important;
+}
+.navbar{
+ display: flex;
+ justify-content: space-around !important;  
+ align-items: center ;  
+
+    color: white;
+    height: 80px;
+    background-color: rgb(16, 16, 67);;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+   
+}
+.left{
+    font-size: 1.5rem;
+}
+.navbar ul li {
+    
+    list-style: none;
+    margin: 0 23px;
+}
+.navbar ul li a{
+    
+    text-decoration: none;
+    margin: 0 23px;
+    color: aliceblue;
+}
+.navbar ul li a:hover{
+    color: rgb(175, 116, 230);
+    font-size: 1.05rem;
+}
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+    color: aliceblue;
+    min-height: 75vh;
+}
+
+.purple{
+    color: rgb(166, 97, 231);
+}
+.firstsection > div{
+width: 30%;
+}
+.leftsection{
+   
+    font-size: 2.5rem;
+    margin: 80px;
+   
+}
+.btn{
+   
+    color: aliceblue;
+    background-color: #1e2167;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.rightsection {
+    width: 40%; 
+    text-align: center;
+}
+.rightsection img {
+    max-width: 100%;
+    margin: 40px 0;
+    height: auto;
+}
+
+
+
+#element{
+    color: rgb(166, 97, 231);
+}
+#hanging-icons{
+    color: aliceblue ;
+    margin: 60px;
+}
+.pb-2 {
+    font-size: 3rem;
+}
+.bi{
+    background-color: rgb(148, 79, 213);
+}
+
+.progress-wrapper {
+    display: flex;
+    justify-content: space-between; /* Ensures left and right are separated */
+    align-items: flex-start; /* Aligns items to the top */
+    width: 90%;
+    color: aliceblue;
+    margin: auto;
+    padding: 20px;
+}
+.h2{
+color: rgb(166, 97, 231);
+font-size: 3rem;
+text-align: center;
+margin-top: 0%;
+margin-bottom: 50px;
+}
+/* Left Section - Linear Progress Bars */
+.linear-progress-section {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.progress-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.progress-bar {
+    width: 400px;
+    height: 25px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #007bff;
+}
+
+/* Right Section - Circular Progress Bars */
+.circular-progress-section {
+    width: 140%;
+    display: flex;
+    justify-content: center; /* Centers the progress bars */
+    align-items: center;
+    gap: 40px; /* Space between the two circles */
+    padding: 20px;
+}
+
+.circular-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.progress-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.progress-icon {
+    width: 24px;
+    height: 24px;
+    fill: #4caf50;
+}
+
+.progress-text {
+    font-size: 18px;
+    font-weight: bold;
+      color: rgb(166, 97, 231);
+      text-align: center;
+}
+
+.progress-circle {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.circular-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+}
+/* Default circular progress styling */
+.circular-container {
+    position: relative;
+    width: 120px; /* Increased size */
+    height: 120px;
+}
+
+/* The grey background circle */
+.circular-container svg circle:first-child {
+    stroke: #e0e0e0; /* Background circle */
+}
+
+/* The progress circle - change stroke for different colors */
+.circular-container:nth-child(1) svg circle:nth-child(2) {
+    stroke: #ff5733; /* Red */
+}
+
+.circular-container:nth-child(2) svg circle:nth-child(2) {
+    stroke: #007bff; /* Blue */
+}
+.hai{
+    color:rgb(166, 97, 231) ;
+}
+.Footer{
+    color: aliceblue;
+   
+    
+}
+
+
+.Footer nav-item{
+    text-decoration: none;
+    margin: 0 23px;
+}
+
+
+
+
