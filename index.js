@@ -35,8 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
-    updateCircularProgress("circular-progress-1", 35);
-    updateCircularProgress("circular-progress-2", 45);
+    updateCircularProgress("circular-progress-1", 60);
+    updateCircularProgress("circular-progress-2", 55);
 });
 
 
