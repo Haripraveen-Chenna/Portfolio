@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     updateLinearProgress(".progress-fill-1", 70);
-    updateLinearProgress(".progress-fill-2", 40);
+    updateLinearProgress(".progress-fill-2", 60);
     updateLinearProgress(".progress-fill-3", 80);
     updateLinearProgress(".progress-fill-4", 20);
 
